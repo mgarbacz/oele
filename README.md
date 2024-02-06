@@ -10,7 +10,7 @@ The parsing of the expression language is handled by [oele-grammar](https://gith
 
 ## Developing
 
-Once you've cloned the project, install dependencies with `npm install` (or `pnpm install` or `yarn`). This project uses Vite to power local development and run builds. To start a development server:
+Once you've cloned the project, install dependencies with `npm install` (or `pnpm install` or `yarn`). This project uses [Vite](https://vitejs.dev/) to power local development and run builds. To start a development server:
 
 ```bash
 npm run dev
