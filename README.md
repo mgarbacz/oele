@@ -1,22 +1,16 @@
-# create-svelte
+# oele
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+~~Okta~~ Okay Expression Language Evaluator
 
-## Creating a project
+## Goal
 
-If you're seeing this, you've probably already done this step. Congrats!
+The goal of this project is to parse statements written in the Okta Expression Language for correctness. Since this is a WIP, it will just be an Okay expression language evaluator for now.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+The parsing of the expression language is handled by [oele-grammar](https://github.com/mgarbacz/oele-grammar).
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've cloned the project, install dependencies with `npm install` (or `pnpm install` or `yarn`). This project uses Vite to power local development and run builds. To start a development server:
 
 ```bash
 npm run dev
@@ -27,12 +21,10 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+To create a production build:
 
 ```bash
 npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
