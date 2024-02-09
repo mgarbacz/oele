@@ -3,7 +3,6 @@
 
   interface Predicate {
     name: string;
-    value: boolean;
   }
 
   let predicates: Predicate[] = [];
@@ -16,7 +15,7 @@
       for (const component of section) {
         sectionText += component.text;
       }
-      predicates.push({ name: sectionText, value: false });
+      predicates.push({ name: sectionText });
     }
   }
 
