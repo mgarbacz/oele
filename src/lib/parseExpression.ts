@@ -8,7 +8,7 @@ export default function parseExpression(expression: string) {
         offset: 0,
         lineBreaks: 0,
         line: 1,
-        col: 1
+        col: 1,
       },
       {
         type: 'ws',
@@ -17,7 +17,7 @@ export default function parseExpression(expression: string) {
         offset: 11,
         lineBreaks: 0,
         line: 1,
-        col: 12
+        col: 12,
       },
       {
         type: 'comparison',
@@ -26,7 +26,7 @@ export default function parseExpression(expression: string) {
         offset: 12,
         lineBreaks: 0,
         line: 1,
-        col: 13
+        col: 13,
       },
       {
         type: 'ws',
@@ -35,7 +35,7 @@ export default function parseExpression(expression: string) {
         offset: 14,
         lineBreaks: 0,
         line: 1,
-        col: 15
+        col: 15,
       },
       {
         type: 'value',
@@ -44,8 +44,8 @@ export default function parseExpression(expression: string) {
         offset: 15,
         lineBreaks: 0,
         line: 1,
-        col: 16
-      }
+        col: 16,
+      },
     ],
     [
       {
@@ -55,8 +55,8 @@ export default function parseExpression(expression: string) {
         offset: 24,
         lineBreaks: 0,
         line: 1,
-        col: 25
-      }
+        col: 25,
+      },
     ],
     [
       {
@@ -66,7 +66,7 @@ export default function parseExpression(expression: string) {
         offset: 28,
         lineBreaks: 0,
         line: 1,
-        col: 29
+        col: 29,
       },
       {
         type: 'ws',
@@ -75,7 +75,7 @@ export default function parseExpression(expression: string) {
         offset: 47,
         lineBreaks: 0,
         line: 1,
-        col: 48
+        col: 48,
       },
       {
         type: 'comparison',
@@ -84,7 +84,7 @@ export default function parseExpression(expression: string) {
         offset: 48,
         lineBreaks: 0,
         line: 1,
-        col: 49
+        col: 49,
       },
       {
         type: 'ws',
@@ -93,7 +93,7 @@ export default function parseExpression(expression: string) {
         offset: 49,
         lineBreaks: 0,
         line: 1,
-        col: 50
+        col: 50,
       },
       {
         type: 'value',
@@ -102,8 +102,8 @@ export default function parseExpression(expression: string) {
         offset: 50,
         lineBreaks: 0,
         line: 1,
-        col: 51
-      }
-    ]
+        col: 51,
+      },
+    ],
   ];
 }

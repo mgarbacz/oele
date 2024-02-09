@@ -6,12 +6,13 @@
   }
 
   let predicates: Predicate[] = [];
-  let expression: string = 'user.status == "active" AND user.getGroups.size > 0';
+  let expression: string =
+    'user.status == "active" AND user.getGroups.size > 0';
   let ast = parseExpression(expression);
 
   for (const section of ast) {
-    if (section[0].type !== "expression") {
-      let sectionText: string = "";
+    if (section[0].type !== 'expression') {
+      let sectionText: string = '';
       for (const component of section) {
         sectionText += component.text;
       }
@@ -35,7 +36,7 @@
 
       truthTable.push(row);
     }
-    
+
     return truthTable;
   }
 </script>
